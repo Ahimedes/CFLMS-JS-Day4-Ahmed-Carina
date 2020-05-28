@@ -6,10 +6,10 @@ function display  () {
 	var result2 = document.getElementById("demo2").innerHTML = node2;
 	var result3 = document.getElementById("demo3").innerHTML = node3;
 	if (node1.length < 5) {
-	document.body.style.color = "red";
+	document.getElementById("demo1").style.color = "red";
 	}
 	else {
-		document.body.style.color = "green";
+		document.getElementById("demo1").style.color = "green";
 	}
 }
 	
